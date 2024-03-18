@@ -62,36 +62,6 @@ Both partitioning and hierarchical clustering have their distinct advantages and
 - **Importance**: Helps in differentiating between clusters, crucial for cluster separation.
 
 Understanding both similarity and dissimilarity is essential in defining appropriate clustering algorithms and for interpreting the results of a clustering process.
-## Measures of Distance Between Two Clusters with Formulae
+![image](https://github.com/MarouaneBenabdelkader/k_means/assets/116631044/1ba3ab15-1dfa-4d41-a55c-0ce8b3d90d40)
 
-Quantifying the distance between clusters is key in clustering. Below are common measures with their respective formulae:
-
-### 1. Single Linkage (Nearest Neighbor)
-- **Formula**: \( \min_{x \in A, y \in B} d(x, y) \)
-- **Description**: Minimum distance from any member of one cluster to any member of the other.
-- **Characteristic**: May result in "chain-like" clusters.
-
-### 2. Complete Linkage (Farthest Neighbor)
-- **Formula**: \( \max_{x \in A, y \in B} d(x, y) \)
-- **Description**: Maximum distance from any member of one cluster to any member of the other.
-- **Characteristic**: Forms more compact clusters.
-
-### 3. Average Linkage
-- **Formula**: \( \frac{1}{|A||B|} \sum_{x \in A, y \in B} d(x, y) \)
-- **Description**: Average of all distances between all pairs in two clusters.
-- **Characteristic**: A balance between single and complete linkage.
-
-### 4. Centroid Distance
-- **Formula**: \( d(\text{centroid}_A, \text{centroid}_B) \)
-- **Description**: Distance between the centroids of the two clusters.
-- **Characteristic**: Flexible with distance measures.
-
-### 5. Ward's Method
-- **Formula**: Minimize increase in total within-cluster variance.
-- **Description**: Merge clusters that minimally increase total variance.
-- **Characteristic**: Creates clusters of similar sizes.
-
-Note: \( d(x, y) \) represents the distance between elements \( x \) and \( y \), \( |A| \) and \( |B| \) are the sizes of clusters A and B, respectively.
-
-The choice of measure can significantly influence the structure of the resulting clusters, and should align with the nature of the data and the clustering objectives.
 
