@@ -62,6 +62,11 @@ Both partitioning and hierarchical clustering have their distinct advantages and
 - **Importance**: Helps in differentiating between clusters, crucial for cluster separation.
 
 Understanding both similarity and dissimilarity is essential in defining appropriate clustering algorithms and for interpreting the results of a clustering process.
-![image](https://github.com/MarouaneBenabdelkader/k_means/assets/116631044/1ba3ab15-1dfa-4d41-a55c-0ce8b3d90d40)
+
+
+
+![test_page-0001](https://github.com/MarouaneBenabdelkader/k_means/assets/116631044/d420c59c-2d06-450c-a12c-746709f56f6a)
+
+
 
 
